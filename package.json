@@ -1,0 +1,24 @@
+{
+  "name": "primeiro_programa",
+  "version": "1.0.0",
+  "description": "aula beckend",
+  "main": "server.js",
+  "scripts": {
+    
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JzBreno/Estudos-de-NodeJS.git"
+  },
+  "author": "jose breno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JzBreno/Estudos-de-NodeJS/issues"
+  },
+  "homepage": "https://github.com/JzBreno/Estudos-de-NodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
