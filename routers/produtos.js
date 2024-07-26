@@ -24,4 +24,22 @@ function listarProdutos(){
      
 }
 
+
+
+function AddProdutos () {
+    
+}
+
+function ListarProdutos () {
+    
+}
+
+function EditarProdutos () {
+    
+}
+
+function ExcluirProdutos () {
+    
+}
+
 module.exports = listarProdutos;
