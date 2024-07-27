@@ -11,7 +11,7 @@ class Pessoa{
         this.data_nascimento = data_nascimento;
     }
 
-    auentica(){
+     autentica(){
         console.log(`${this.nome} - Autenticado`)
     }
 
@@ -27,8 +27,11 @@ class Gerente extends Pessoa{
     }
 }
 
-const pessoa1 = new Pessoa('joao', '00000000', '13/10/1999');
+//metodos de classe sem instanciar podem ser utilizados se usar a palavra static 
+class Carro{
+    static frear(){
+        console.log('freiou');
+    }
+}
 
-const gerente = new Gerente('Teste', '00000000', '20-03-2017', 'Gerente');
-
-gerente.auentica();
+Carro.frear();
