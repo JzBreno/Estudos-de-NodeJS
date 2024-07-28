@@ -1,5 +1,7 @@
-function listarProdutos(){
-    return  produtos =[
+
+
+class Produtos{
+    static produtos =[
         {
             id:1,
             nome:'Mouse USb',
@@ -21,25 +23,35 @@ function listarProdutos(){
         }
       
     ];
-     
-}
 
-
-
-function AddProdutos () {
+    //metodos de classe
+    static listar(){
+         return Produtos.produtos;
+    }
     
-}
-
-function ListarProdutos () {
     
-}
-
-function EditarProdutos () {
     
-}
-
-function ExcluirProdutos () {
+    static Add(id,nome, valor) {
+        Produtos.produtos.push({
+            id:id,
+            nome: nome,
+            valor: valor
+        })
+    }   
     
+    static Editar(id) {
+        
+    }
+    
+    static Excluir(index) {
+        Produtos.produtos.splice(index, 1);
+        console.log(Produtos.produtos)
+    }
 }
 
-module.exports = listarProdutos;
+module.exports = Produtos;
+//CRUD
+//create
+//read
+//update
+//delete
