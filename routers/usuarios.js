@@ -1,6 +1,6 @@
 
 
-class Produtos{
+class usuarios{
     static produtos =[
         {
             id:1,
@@ -49,9 +49,4 @@ class Produtos{
     }
 }
 
-module.exports = listar;
-//CRUD
-//create
-//read
-//update
-//delete
+module.exports = Produtos.listar;
